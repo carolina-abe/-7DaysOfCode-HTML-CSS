@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Nunito:ital,wght@0,200;1,200&display=swap');
 
-body {
-  margin: 0 auto;
+:root {
+  --text: #667085;
+  --main: #8E2424;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: 'Inter', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
 }
 
 nav {
@@ -16,7 +28,7 @@ nav {
   padding: 0 10px;
   cursor: pointer;
   text-decoration: none;
-  color: #667085;
+  color: var(--text);
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
@@ -36,7 +48,7 @@ nav {
 .menu a::before {
 	margin-right: 10px;
 	content: '[';
-  color: #8E2424;
+  color: var(--main);
 	-webkit-transform: translateX(20px);
 	-moz-transform: translateX(20px);
 	transform: translateX(20px);
@@ -45,7 +57,7 @@ nav {
 .menu a::after {
 	margin-left: 10px;
 	content: ']';
-  color: #8E2424;
+  color: var(--main);
 	-webkit-transform: translateX(-20px);
 	-moz-transform: translateX(-20px);
 	transform: translateX(-20px);
@@ -66,12 +78,40 @@ nav {
   margin: 0 5px;
   padding: 6px 12px;
   color: #ffff;
-  background-color: #8E2424;
+  background-color: var(--main);
   box-sizing: border-box;
-  border: 1px solid #8E2424;
+  border: 1px solid var(--main);
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border-radius: 6px;
   cursor: pointer;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 0;
+}
+
+h1 {
+  line-height: 60px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+h4 {
+  color: var(--main);
+  line-height: 40px;
+}
+
+span {
+  color: var(--text);
+  width: 791px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 15px 50px;
 }
