@@ -94,7 +94,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 7rem 0;
+  padding: 10% 0;
 }
 
 .about-us h1 {
@@ -120,25 +120,25 @@ nav {
   padding: 15px 40px;
 }
 
-.metrica-container {
+.metrics-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   height: 25%;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 6rem;
 }
 
-.metrica-container h1 {
+.metrics-container h1 {
   color: var(--main);
-  font-size: 50px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 600;
   letter-spacing: -0.02em;
 }
 
-.metrica-container h4 {
+.metrics-container h4 {
   color: var(--black);
   font-style: normal;
   font-weight: 600;
@@ -146,15 +146,46 @@ nav {
   line-height: 28px;
 }
 
-.metrica-container span {
+.metrics-container span, .jobs-container span {
   color: var(--text);
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   line-height: 24px;
   padding: 0;
 }
 
-.metrica {
+.metric {
   width: 280px;
+}
+
+.jobs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12% 0;
+}
+
+.jobs-container h1 {
+  color: var(--black);
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  line-height: 44px;
+  padding: 1rem 0;
+}
+
+.jobs-container h4 {
+  color: var(--main);
+  width: 125px;
+  height: 28px;
+  background: rgba(142, 36, 36, 0.05);
+  border-radius: 16px;
+  padding: 3px;
+}
+
+.jobs-container img {
+  width: 95%;
+  padding: 2rem;
 }
