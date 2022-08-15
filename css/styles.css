@@ -146,7 +146,8 @@ nav {
   line-height: 28px;
 }
 
-.metrics-container span, .jobs-container span {
+.metrics-container span,
+.jobs-container span {
   color: var(--text);
   font-style: normal;
   font-weight: 300;
@@ -164,7 +165,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 12% 0;
+  padding: 10rem 0 2rem 0;
 }
 
 .jobs-container h1 {
@@ -188,4 +189,48 @@ nav {
 .jobs-container img {
   width: 95%;
   padding: 2rem;
+}
+
+.vacant-jobs {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.vacant-jobs h1 {
+  color: var(--black);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 50px auto 15px;
+  width: 768px;
+  height: 30px;
+}
+
+.vacant-job {
+  align-items: center;
+  padding: 24px 24px 28px;
+  gap: 24px;
+  width: 768px;
+  height: 136px;
+  border: 1px solid #D7D9DE;
+  border-radius: 16px;
+  box-shadow: 4px 4px 4px #C9CACD;
+  margin: 10px auto;
+}
+
+.vacant-job h4 {
+  padding-bottom: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.vacant-job span {
+  color: var(--text);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 }
