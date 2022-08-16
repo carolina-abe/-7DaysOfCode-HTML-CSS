@@ -234,3 +234,54 @@ nav {
   font-size: 16px;
   line-height: 24px;
 }
+
+.testimony {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 64px;
+  margin: 0 auto;
+  width: 1216px;
+  height: 404px;
+  background: rgba(196, 25, 25, 0.03);
+  border-radius: 16px;
+}
+
+.testimony h4 {
+  color: var(--main);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.testimony h1 {
+  color: var(--black);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.person h4 {
+  color: var(--black);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.person span {
+  color: var(--text);
+  text-align: center;
+}
