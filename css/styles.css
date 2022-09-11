@@ -241,7 +241,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 64px;
-  margin: 0 auto;
+  margin: 30px auto;
   width: 1216px;
   height: 404px;
   background: rgba(196, 25, 25, 0.03);
@@ -256,7 +256,8 @@ nav {
   text-align: center;
 }
 
-.testimony h1 {
+.testimony h1,
+.form h1 {
   color: var(--black);
   font-style: normal;
   font-weight: 600;
@@ -284,4 +285,62 @@ nav {
 .person span {
   color: var(--text);
   text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F9FAFB;
+  padding: 80px 0;
+  margin: 70px auto;
+  width: 100%;
+  height: auto;
+}
+
+.form span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 52px;
+  text-align: center;
+  color: var(--text);
+}
+
+.form p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 80px;
+  padding-bottom: 10px;
+  color: var(--text);
+}
+
+.email {
+  padding: 30px 0;
+}
+
+.email input {
+  padding: 12px 14px 12px 16px;
+  width: 360px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+.email .register {
+  padding: 12px 20px;
+  width: 116px;
+  height: 48px;
+  background: var(--main);
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid var(--main);
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
 }
